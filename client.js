@@ -116,14 +116,14 @@ const connect = async () => {
          if (groupSet.welcome) client.sendMessageModify(room.id, txt, null, {
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/Dh1USlrqIfmJT6Ji0Pm2pP'
+            url: 'https://chat.whatsapp.com/DRnWIXKf0VLH4KArdpH4IX'
          })
       } else if (room.action == 'remove') {
          let txt = (groupSet.text_left != '' ? groupSet.text_left : text_left).replace('+tag', `@${member.split`@`[0]}`).replace('+grup', `${meta.subject}`)
          if (groupSet.left) client.sendMessageModify(room.id, txt, null, {
             largeThumb: true,
             thumbnail: pic,
-            url: 'https://chat.whatsapp.com/Dh1USlrqIfmJT6Ji0Pm2pP'
+            url: 'https://chat.whatsapp.com/DRnWIXKf0VLH4KArdpH4IX'
          })
       }
    })
