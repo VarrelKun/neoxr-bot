@@ -5,6 +5,10 @@ global.owner_name = 'Customer Service'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
+global.packname = 'By'
+// Package name sticker
+global.author = '@gopala5u'
+// Author Sticker
 global.cooldown = 3
 // User Limitation (Default : 25)
 global.limit = 10
