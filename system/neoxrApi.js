@@ -1,6 +1,8 @@
 module.exports = class NeoxrApi {
    baseUrl = 'https://api.neoxr.my.id/api'
    apiKey = null
+   frapi = 'https://restapi.frteam.xyz/ig2?url=https://www.instagram.com/reel/ClPkg-3BvGM/?igshid=YmMyMTA2M2Y=
+   frkey = 'Hrbot'
 
    constructor(apiKey) {
       this.apiKey = apiKey || ''
@@ -22,7 +24,7 @@ module.exports = class NeoxrApi {
    }
 
    ig = async (url) => {
-      let json = await Func.fetchJson(this.baseUrl + '/ig?url=' + url + '&apikey=' + this.apiKey)
+      let json = await Func.fetchJson(this.frapi + '/ig2?url=' + url + '&apikey=' + this.frkey)
       return json
    }
 
