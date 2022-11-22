@@ -1,7 +1,7 @@
 module.exports = class NeoxrApi {
    baseUrl = 'https://api.neoxr.my.id/api'
    apiKey = null
-   frapi = 'https://restapi.frteam.xyz/ig2?url=https://www.instagram.com/reel/ClPkg-3BvGM/?igshid=YmMyMTA2M2Y=
+   frapi = 'https://restapi.frteam.xyz'
    frkey = 'Hrbot'
 
    constructor(apiKey) {
